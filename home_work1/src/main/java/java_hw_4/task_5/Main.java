@@ -15,7 +15,6 @@ public class Main {
         System.out.print(num + " ");
         }
         System.out.println();
-
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number to search:");
         int userNumber = scanner.nextInt();
