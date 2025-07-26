@@ -26,6 +26,7 @@ public class Main {
             }
         }
     }
+
     private static void addPerson() {
         System.out.println("Enter your last name:");
         String surname = scanner.nextLine().trim();
