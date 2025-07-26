@@ -9,7 +9,7 @@ public class Program {
         int a = scanner.nextInt();
         System.out.print("Enter the second number:");
         int b = scanner.nextInt();
-        int result =( a > b ) ? ( a - b ) : ( b - a );
+        int result = (a > b) ? (a - b) : (b - a);
         System.out.println(" Difference ( from more to less):" + result);
     }
 }
