@@ -8,14 +8,14 @@ public class Main {
         StringBuilder sentence = new StringBuilder();
         System.out.println("Enter the word.To finish,enter STOP ");
         while (true) {
-        String word = scanner.next();
-        if (word.equals("STOP")) {
-        break;
-        }
-        if (sentence.length() > 0) {
-        sentence.append(" ");
-        }
-        sentence.append(word);
+            String word = scanner.next();
+            if (word.equals("STOP")) {
+                break;
+            }
+            if (sentence.length() > 0) {
+                sentence.append(" ");
+            }
+            sentence.append(word);
         }
         System.out.println("Received offer");
         System.out.println(sentence.toString());
